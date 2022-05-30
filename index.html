@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon " href="./assets/trena05.png" type="assets/png">
+    
+
+    <title>Calcule o Metro Quadrado</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Calcule o Metro Quadrado</h1>
+    </header>
+
+    <section>
+
+        <h3>Marque a opção desejada.</h3>
+
+        <p> Casa: <input type="radio" name="loc" id="casa" checked>
+            Terreno: <input type="radio" name="loc" id="terreno">
+            Cômodo: <input type="radio" name="loc" id="comodo"></p>
+
+        <p class="medida">Larg: <input type="number" placeholder="Digite a Largura:" id="largura"></p>
+        <p class="medida">Comp: <input type="number" placeholder="Digite o Comprimento:" name="" id="comprimento"></p>
+        <p> <input class="btn" type="submit" value="Calcular" onclick="calcular()">
+            <input class="btn" type="submit" value="Limpar" onclick="limpar()"> </p>
+
+
+
+        <div id="resposta"></div>
+
+    </section>
+
+
+
+<script src="./script.js"></script>
+
+</body>
+
+</html>
